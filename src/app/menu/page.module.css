@@ -1,0 +1,20 @@
+.foodMain{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.foodContainer{
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.foodName{
+    margin-bottom: 10px;
+    color: #F2C94C;
+}
+.foodDesc{
+    width: 300px;
+}
