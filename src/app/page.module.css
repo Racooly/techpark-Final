@@ -1,0 +1,39 @@
+
+.mainText{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+.border{
+    border-bottom: 5px solid #F2C94C;
+}
+
+.desc{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 546px;
+}
+.prc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.About{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 510px;
+}
+
+.aboutTitle{
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 5px solid #F2C94C;
+}
+.aboutDesc{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 540px;
+}
