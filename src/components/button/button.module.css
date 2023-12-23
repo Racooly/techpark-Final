@@ -5,4 +5,9 @@
     cursor: pointer;
     width: 100px;
     height: 50px;
+    transition: .5s;
+}
+.button:hover{
+    color: white;
+    background-color: #F2C94C;
 }

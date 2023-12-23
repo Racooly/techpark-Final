@@ -23,8 +23,8 @@
 }
 .About{
     display: flex;
-    justify-content: space-between;
-    padding: 0px 510px;
+    justify-content: center;
+    gap:50px
 }
 
 .aboutTitle{
