@@ -1,27 +1,18 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import styles from './darkModeToggle.module.css'
 import Image from 'next/image'
+import { ThemeContext } from '@/app/context/ThemeContext'
 
 
 function DarkModeToggle() {
-    const [light, setLight] = useState("right")
-
+  const {toggle, mode} = useContext(ThemeContext)
   return (
-    <div className={styles.container}
-    onClick={() =>{
-
-        if(light === "left"){
-          setLight("right")
-        }
-        else{
-          setLight("left")
-        }
-        
-    }}>
-        <div className={styles.icon}><Image src={'/moon.png'} width={15} height={15}/></div>
-        <div className={styles.icon}><Image src={'/sun.png'}  width={15} height={15}/></div>
-        <div className={styles.ball} style={light === 'right' ? {left: '4px'}: {right: '4px', }}/>
+    <div className={styles.container} onClick={toggle}>
+        {/* <div className={styles.icon}><Image src={'/moon.png'} width={15} height={15}/></div>
+        <div className={styles.icon}><Image src={'/sun.png'}  width={15} height={15}/></div> */}
+        <div className={styles.ball}
+        style={mode === 'dark' ? {right: '2px', backgroundColor: 'white'} : {left : '2px', backgroundColor: 'black' }}/>
     </div>
   )
 }
