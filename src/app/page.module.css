@@ -6,7 +6,7 @@
 
 }
 .border{
-    border-bottom: 5px solid #F2C94C;
+    border-bottom: 5px solid var(--yellow);
 }
 
 .desc{
@@ -30,7 +30,7 @@
 .aboutTitle{
     font-size: 40px;
     font-weight: 500;
-    border-bottom: 5px solid #F2C94C;
+    border-bottom: 5px solid var(--yellow);
 }
 .aboutDesc{
     margin-top: 20px;

@@ -20,3 +20,14 @@ a {
 main{
   min-height: 100vh;
 }
+/* .theme{
+  background-color: red;
+} */
+.dark{
+  background-color: #111111;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: #111111;
+}
