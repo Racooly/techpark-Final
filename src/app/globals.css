@@ -1,3 +1,7 @@
+:root{
+  --yellow: #F2C94C
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
