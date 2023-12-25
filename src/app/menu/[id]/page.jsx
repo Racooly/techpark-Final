@@ -13,9 +13,6 @@ function Menu({params}) {
       .then(resp => resp.json())
       .then((result) => {setSingleProduct(result), setLoading('true')})
   }, [])
-
-  console.log('this is blog item', singleProduct)
-
   return (
     <div className={styles.mainCont}>
       {loading === "false" && <div>Please wait...</div>}
