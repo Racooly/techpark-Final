@@ -19,7 +19,9 @@ async function page() {
   const data = await getData();
 
   return (
-    
+   <>
+    <button>foods</button>
+    <button>drinks</button>
     <div className={styles.foodMain}>
      {data.map((foodLists) => (
         <Link href={`/menu/${foodLists.id}`} key={foodLists.id}>
@@ -37,6 +39,7 @@ async function page() {
         </Link>
      ))}
     </div>
+  </> 
   )
 }
 
