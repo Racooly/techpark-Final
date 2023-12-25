@@ -25,7 +25,7 @@ export default function Home() {
             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
 
-            <Button title={'READ MORE'} url={'/about'}/>
+            <Button title={'READ MORE'} url={'/'}/>
           </div>
           <Image
           src={'/restaurant.png'}
