@@ -20,8 +20,6 @@ async function page() {
 
   return (
    <>
-    <button>foods</button>
-    <button>drinks</button>
     <div className={styles.foodMain}>
      {data.map((foodLists) => (
         <Link href={`/menu/${foodLists.id}`} key={foodLists.id}>
