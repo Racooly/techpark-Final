@@ -24,9 +24,9 @@
 .About{
     display: flex;
     justify-content: center;
-    gap:50px
+    gap:50px;
+    flex-wrap: wrap;
 }
-
 .aboutTitle{
     font-size: 40px;
     font-weight: 500;
@@ -36,4 +36,11 @@
     margin-top: 20px;
     margin-bottom: 50px;
     width: 540px;
+}
+
+@media screen and (max-width: 1120px) {
+    .About{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
