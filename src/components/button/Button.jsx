@@ -6,7 +6,6 @@ function Button({title, url}) {
   return (
    <Link href={`${url}`}>
     <button className={styles.button}>{title}</button>
-    <p>fdsdfsdf</p>
    </Link> 
    
   )
