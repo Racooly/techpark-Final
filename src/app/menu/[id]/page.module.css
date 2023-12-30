@@ -12,9 +12,11 @@
 }
 .title{
     margin-bottom: 15px;
+    text-align: center;
 }
 .desc{
     margin-bottom: 35px;
+    text-align: center;
 }
 .editDiv{
     display: flex;
