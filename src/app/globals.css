@@ -31,3 +31,7 @@ main{
   background-color: white;
   color: #111111;
 }
+input{
+  outline: none;
+  padding: 0px 10px;
+}

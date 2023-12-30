@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 const getData = async () => {
-  const res = await fetch("https://api.escuelajs.co/api/v1/products", {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
     cache: "force-cache",
   });
   if (!res.ok) {
@@ -31,7 +31,7 @@ async function page() {
             />
             <div className={styles.foodTexts}>
                 <h1 className={styles.foodName}>{foodLists.title}</h1>
-                <p className={styles.foodDesc}>{foodLists.description} </p>
+                <p className={styles.foodDesc}>{foodLists.body} </p>
             </div>
         </div>
         </Link>
